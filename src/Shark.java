@@ -1,17 +1,6 @@
 public class Shark extends Animal{
 
-    @Override
-    public String attackMethod() {
-        return "attack";
-    }
-
-    @Override
-    public String flyMethod() {
-        return "fly";
-    }
-
-    @Override
-    public String swimMethod() {
-        return "swim";
-    }
+        void attack() {
+            System.out.println("The shark is attacking!");
+        }
 }

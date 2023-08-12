@@ -1,2 +1,17 @@
-package PACKAGE_NAME;public class Shark {
+public class Shark extends Animal{
+
+    @Override
+    public String attackMethod() {
+        return "attack";
+    }
+
+    @Override
+    public String flyMethod() {
+        return "fly";
+    }
+
+    @Override
+    public String swimMethod() {
+        return "swim";
+    }
 }
